@@ -4,7 +4,12 @@ This is a simple Twitch Chat Bot script that sends timed messages in a Twitch ch
 
 ## Installation
 
-1. Install the required dependencies. You can use the following command:
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/lGodHatesMel/RandomResources.git
+
+2. Install the required dependencies. You can use the following command:
    pip install irc
 
 ## Configuration
