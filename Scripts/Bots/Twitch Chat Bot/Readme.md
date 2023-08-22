@@ -26,10 +26,16 @@ This is a simple Twitch Chat Bot script that sends timed messages in a Twitch ch
 ## Usage
 
 1. Run the script using the following command:
+   ```bash
    python TwitchChatBot.py
 
    
 The bot will connect to the Twitch chat using the provided credentials and start sending messages at the specified intervals.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
