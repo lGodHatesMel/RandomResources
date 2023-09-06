@@ -23,11 +23,14 @@ This is a simple Twitch Chat Bot script that sends timed messages in a Twitch ch
 3. Add your custom messages to the messages list. 
    Each message should have a `message`, `interval_minutes`, and `message_count` property.
 
+   `message_count` is the amount of times you want that message to repeat before moving onto the next message. Setting it to `1` means it will just play it once then wait the `interval_minutes` before moving onto the next message.
+
+
 ## Usage
 
 1. Run the script using the following command:
    ```bash
-   python TwitchChatBot.py
+   python TwitchBot.py
 
    
 The bot will connect to the Twitch chat using the provided credentials and start sending messages at the specified intervals.

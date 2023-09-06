@@ -1,6 +1,6 @@
 # Configuring the Bot
 
-Before you can run the bot, you'll need to configure it by editing the config.json file. If you haven't already, you can start by renaming the config-Example.json file to config.json to ensure it's properly recognized by the bot.
+Before you can run the bot, you'll need to configure it by editing the config.json file. If you haven't already, you can start by renaming the `Example-config.json` file to `config.json` to ensure it's properly recognized by the bot.
 
 ## config.json Structure
 The config.json file follows a specific structure that you should adhere to when customizing it for your bot. Below, we'll explain each section and what you should add or modify:

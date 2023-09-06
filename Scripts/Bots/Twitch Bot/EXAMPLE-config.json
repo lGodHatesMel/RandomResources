@@ -12,11 +12,6 @@
             "message": "I hope you're enjoying the stream.",
             "interval_minutes": 8,
             "message_count": 1
-        },
-        {
-            "message": "Don't forget to like and subscribe!",
-            "interval_minutes": 10,
-            "message_count": 1
         }
     ]
 }
