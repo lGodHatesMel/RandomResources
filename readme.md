@@ -15,7 +15,7 @@ This repository contains the following scripts:
 
 1. [Discord Bots](Scripts/DiscordBots/) Discord Bots.
 2. [Twitch Bots](Scripts/TwitchBots/) Twitch Bots.
-3. [ConverterScripts](Scripts/Converter Scripts/): Some converter scripts.
+3. [Converter Scripts](Scripts/ConverterScripts/): Some converter scripts.
 
 Feel free to explore the scripts and use them as needed. Each script is contained within its own file and is accompanied by a brief description.
 
