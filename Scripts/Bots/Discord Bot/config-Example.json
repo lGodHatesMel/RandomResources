@@ -23,5 +23,7 @@
                 {"message": "Welcome to the server!", "interval": 3600}
             ]
         }
-    }
+    },
+    "target_timestamp": 1694577600,
+    "countdown_channel_id": "CHANNEL_ID_FOR_COUNTDOWN"
 } 
