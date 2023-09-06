@@ -19,9 +19,9 @@ config = load_config()
 bot_token = config['token']
 command_prefix = config['command_prefix']
 target_channels = config['target_channels']
+run_countdown = config['run_countdown']
 target_timestamp = config['target_timestamp']
 countdown_channel_id = config['countdown_channel_id']
-
 
 @client.event
 async def on_ready():
@@ -29,26 +29,28 @@ async def on_ready():
     await send_messages()
 
     global countdown_message
-    channel = client.get_channel(countdown_channel_id)
 
-    while True:
-        current_timestamp = datetime.now(timezone.utc).timestamp()
-        time_remaining = target_timestamp - current_timestamp
+    if run_countdown:  # Check if countdown should run
+        channel = client.get_channel(countdown_channel_id)
 
-        if time_remaining <= 0:
-            countdown_text = "DLC IS NOW OUT!!!\nCountdown has ended!"
-        else:
-            days = int(time_remaining // 86400)
-            hours = int((time_remaining % 86400) // 3600)
-            minutes = int((time_remaining % 3600) // 60)
-            countdown_text = f"POKEMON SCARLET & VIOLET DLC DROPS IN \n\n`{days} days, {hours} hours, {minutes} minutes`"
+        while True:
+            current_timestamp = datetime.now(timezone.utc).timestamp()
+            time_remaining = target_timestamp - current_timestamp
 
-        if countdown_message is None:
-            countdown_message = await channel.send(countdown_text)
-        else:
-            await countdown_message.edit(content=countdown_text)
+            if time_remaining <= 0:
+                countdown_text = "DLC IS NOW OUT!!!\nCountdown has ended!"
+            else:
+                days = int(time_remaining // 86400)
+                hours = int((time_remaining % 86400) // 3600)
+                minutes = int((time_remaining % 3600) // 60)
+                countdown_text = f"POKEMON SCARLET & VIOLET DLC DROPS IN \n\n`{days} days, {hours} hours, {minutes} minutes`"
 
-        await asyncio.sleep(60)
+            if countdown_message is None:
+                countdown_message = await channel.send(countdown_text)
+            else:
+                await countdown_message.edit(content=countdown_text)
+
+            await asyncio.sleep(60)
 
 async def send_messages():
     while True:

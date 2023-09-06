@@ -24,6 +24,7 @@
             ]
         }
     },
+    "run_countdown": false,
     "target_timestamp": 1694577600,
     "countdown_channel_id": "CHANNEL_ID_FOR_COUNTDOWN"
 } 
