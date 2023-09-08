@@ -2,4 +2,3 @@
 {"HashIdentifier":1661989417,"NIDIdentifier":9785186464643638297,"Identity":"Gavin","PlaintextName":"froggoflesh"}
 {"HashIdentifier":1805842614,"NIDIdentifier":15108690203704459588,"Identity":"\u3044\u3061\u3054\u307B\u3044t","PlaintextName":"harajukuboyz"}
 {"HashIdentifier":2299505875,"NIDIdentifier":15108690203704459588,"Identity":"HaraJuKuss","PlaintextName":"harajukuboyz"}
-{"HashIdentifier":0000000000,"NIDIdentifier":4146341015904454989,"Identity":"voqgzalt","PlaintextName":"sify"}
