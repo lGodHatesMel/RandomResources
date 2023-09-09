@@ -16,12 +16,6 @@
             "messages": [
                 {"message": "Message 1 for Channel 2", "interval": 90}
             ]
-        },
-        "server_announcements": {
-            "id": "YOUR_SERVER_ANNOUNCEMENTS_CHANNEL_ID",
-            "messages": [
-                {"message": "Welcome to the server!", "interval": 3600}
-            ]
         }
     },
     "run_countdown": false,
