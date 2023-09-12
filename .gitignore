@@ -8,3 +8,15 @@ Scripts/DiscordBots/Discord Chat Bot/config.json
 Scripts/Bots/TwitchBot/messages.json
 Scripts/TwitchBots/Twitch Chat Timer Bot/config.json
 Scripts/WIP/TwitchRedeemBot/MyRedeem.py
+Scripts/WIP/Discord Bot/config.json
+Scripts/DiscordBots/Discord Bot/config.json
+Scripts/WIP/Discord Bot/__pycache__/info.cpython-310.pyc
+Scripts/WIP/Discord Bot/__pycache__/pokemonbots.cpython-310.pyc
+Scripts/WIP/Discord Bot/__pycache__/streams.cpython-310.pyc
+Scripts/WIP/Discord Bot/Discord.py
+Scripts/WIP/Discord Bot/example-config.json
+Scripts/WIP/Discord Bot/info.py
+Scripts/WIP/Discord Bot/pokemonbots.py
+Scripts/WIP/Discord Bot/streams.py
+Scripts/Bots/DiscordBotTimer/CountdwnTimer.py
+Discord Chat Bot/config.json
