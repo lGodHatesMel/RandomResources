@@ -24,3 +24,23 @@ Scripts/Discord Bot/config.json
 Scripts/Bots/Discord Bot/__pycache__/info.cpython-310.pyc
 Scripts/Bots/Discord Bot/__pycache__/pokemonbots.cpython-310.pyc
 Scripts/Bots/Discord Bot/__pycache__/streams.cpython-310.pyc
+<<<<<<< Updated upstream
+=======
+Scripts/Bots/Discord Bot/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/Discord Bot/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/Discord Bot/__pycache__/StickyNotes.cpython-310.pyc
+Scripts/Bots/Discord Bot/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/Discord Bot/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/TwitchBot/TwitchBot.py
+Scripts/Bots/Discord Bot/cogs/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/Discord Bot/cogs/__pycache__/countdown.cpython-310.pyc
+Scripts/Bots/Discord Bot/cogs/__pycache__/info.cpython-310.pyc
+Scripts/Bots/Discord Bot/cogs/__pycache__/PokemonStuff.cpython-310.pyc
+Scripts/Bots/Discord Bot/cogs/__pycache__/streams.cpython-310.pyc
+Scripts/DiscordBotTimer/CountdwnTimer.py
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/admincommands.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/countdown.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/info.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/PokemonStuff.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/streams.cpython-310.pyc
+>>>>>>> Stashed changes

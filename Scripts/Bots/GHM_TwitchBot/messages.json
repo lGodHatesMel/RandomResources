@@ -1,0 +1,30 @@
+[
+    {
+        "message": "Example of how to request Pokemon: !trade Greninja Shiny: Yes Level: 69 Ball: Premier Ball Tera Type: Ghost",
+        "pause": 5
+    },
+    {
+        "message": "Unlock the power of Twitch Prime, absolutely FREE! Subscribers gain exclusive access to our Discord bot, reserved just for you. If you're a Twitch Subscriber, ensure your Discord and Twitch accounts are linked, and join the Discord Server. Simply type !discord for an instant invite to the Server.",
+        "pause": 6
+    },
+    {
+        "message": "[CURRENTLY FOR RAID 2 ONLY] Hey Twitch Subscribers! You can now request Pokemon to add to the raids by using the command `!raidsheet` this will give you a list of Pokemon that is possible to be added to the raids (for now, please use `Violet 3 - 5 Star`). Once you find a Pokemon you want to add, you will need the ID from the first column that is beside the Pokemon you want. Once you have the Pokemon you want, use the command `2addraid ID` and it will be added to the list for you.",
+        "pause": 5
+    },
+    {
+        "message": "Interested in showing your support? If you'd like to contribute, feel free to send a donation through this link: https://streamelements.com/lgodhatesmel/tip. Your generous donations are truly valued and make a significant impact, although they're never obligatory. Your support means a lot!",
+        "pause": 8
+    },
+    {
+        "message": "For Discord Ban Appeals please join: https://discord.gg/CBuJgaWkrr",
+        "pause": 7
+    },
+    {
+        "message": "<3 <3 SUBtember is back!!! If you've been considering becoming a subscriber, now is the perfect time! Not only will you get all the awesome benefits & its cheaper. <3 <3",
+        "pause": 5
+    },
+    {
+        "message": "Want to see a list of all the commands you can use? Use !commands to get the list",
+        "pause": 5
+    }
+]
