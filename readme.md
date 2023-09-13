@@ -13,7 +13,7 @@ This repository is a collection of various scripts that I've created. It serves 
 
 This repository contains the following scripts:
 
-1. [Discord Bots](Scripts/DiscordBots/) Discord Bots.
+1. [Discord Bots](Scripts/Bots/GHM_DiscordBot/) Discord Bots.
 2. [Twitch Bots](Scripts/TwitchBots/) Twitch Bots.
 3. [Converter Scripts](Scripts/ConverterScripts/): Some converter scripts.
 

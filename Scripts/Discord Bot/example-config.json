@@ -1,7 +1,0 @@
-{
-    "token": "YOUR_BOT_TOKEN",
-    "prefix": "!",
-    "enable_countdown": true,
-    "countdown_channel_id": "Channal_ID",
-    "target_timestamp": 1694566800
-}
