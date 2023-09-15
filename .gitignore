@@ -53,3 +53,6 @@ Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/bans_kick.cpython-310.pyc
 Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/clean_messages.cpython-310.pyc
 Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/warnings.cpython-310.pyc
 Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/welcome_messages.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/pickroles.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/messagelogger.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/clear_messages.cpython-310.pyc

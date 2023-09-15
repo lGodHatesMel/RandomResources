@@ -23,18 +23,18 @@ def has_mod_or_higher():
 
     return commands.check(predicate)
 
-class WarningsCog(commands.Cog):
+class Warnings(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.data_folder = 'data'
         self.warnings_file = os.path.join(self.data_folder, 'warnings.json')
         self.log_mod_stuff = config.get('log_mod_stuff')
-        self.load_warnings()  # Load the warnings when the cog is initialized
+        self.load_warnings()
 
     def load_warnings(self):
         if not os.path.exists(self.warnings_file):
             self.warnings_data = {}
-            self.save_warnings()  # Create an empty JSON file
+            self.save_warnings()
         else:
             with open(self.warnings_file, "r") as f:
                 try:
@@ -113,7 +113,7 @@ class WarningsCog(commands.Cog):
                 return
 
         warn_count = len(self.warnings_data.get(str(member.id), {}).get("warns", []))
-        msg = "You were warned on GodHatesMe Pokemon Centre Discord Server."
+        msg = "You were warned on GodHatesMe Pokemon Centre Server."
         if reason:
             msg += f" The given reason was: {reason}"
 
@@ -256,4 +256,4 @@ class WarningsCog(commands.Cog):
         )
 
 def setup(bot):
-    bot.add_cog(WarningsCog(bot))
+    bot.add_cog(Warnings(bot))
