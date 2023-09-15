@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import datetime
 
-class Info(commands.Cog):
+class INFO_COMMANDS(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -16,7 +16,7 @@ class Info(commands.Cog):
         command = ctx.command.name
         print(f"{current_time} - {author.name} used the *{command}* command.")
 
-    @commands.command(name='donate', help='Gives a donation link.')
+    @commands.command(name='donate', aliases=['tip'], help='Gives a donation link.')
     async def donate_link(self, ctx):
         donate_url = "https://streamelements.com/lgodhatesmel/tip"
         await ctx.send(f"Here's how you can donate by using this link:\n{donate_url}")
@@ -36,4 +36,4 @@ class Info(commands.Cog):
         print(f"{current_time} - {author.name} used the *{command}* command.")
 
 def setup(bot):
-    bot.add_cog(Info(bot))
+    bot.add_cog(INFO_COMMANDS(bot))

@@ -4,23 +4,27 @@ import subprocess
 # Function to start the Python script
 def discord_start_script():
     global script_process
+    print('Starting Discord Bot')
     script_process = subprocess.Popen(["python", "main.py"])
 
 # Function to stop the Python script
 def discord_stop_script():
     global script_process
     if script_process:
+        print('Stopping Discord Bot')
         script_process.terminate()
         script_process = None
 
 def twitch_start_script():
     global script_process2
+    print('Starting Twitch Bot')
     script_process2 = subprocess.Popen(["python", "TwitchBot.py"])
 
 # Function to stop the Python script
 def twitch_stop_script():
     global script_process2
     if script_process2:
+        print('Stopping Twitch Bot')
         script_process2.terminate()
         script_process2 = None
 

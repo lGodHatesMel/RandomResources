@@ -45,3 +45,11 @@ Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/PokemonStuff.cpython-310.pyc
 Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/streams.cpython-310.pyc
 >>>>>>> Stashed changes
 Scripts/Bots/GHM_DiscordBot/config.json
+Scripts/Bots/GHM_DiscordBot/__pycache__/data.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/data.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/config.json
+Scripts/Bots/GHM_DiscordBot/cogs/__pycache__/pokemon_data.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/bans_kick.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/clean_messages.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/warnings.cpython-310.pyc
+Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/welcome_messages.cpython-310.pyc

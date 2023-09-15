@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import datetime
 
-class Streams(commands.Cog):
+class STREAM_INFO(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -27,4 +27,4 @@ class Streams(commands.Cog):
         print(f"{current_time} - {author.name} used the *{command}* command.")
 
 def setup(bot):
-    bot.add_cog(Streams(bot))
+    bot.add_cog(STREAM_INFO(bot))
