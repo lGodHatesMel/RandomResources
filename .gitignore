@@ -59,3 +59,5 @@ Scripts/Bots/GHM_DiscordBot/mod_cogs/__pycache__/clear_messages.cpython-310.pyc
 Scripts/Bots/GHM_DiscordBot/data/warnings.json
 Scripts/Bots/GHM_DiscordBot/log/kicks.txt/916469484666093668_kicks.txt.txt
 Scripts/refreshtoken.py
+Scripts/Twitch Scripts/refreshtoken.py
+Scripts/Twitch Scripts/twitchrewards.py
